@@ -8,16 +8,15 @@ This project is built with python3.9.
 
 ## To run it locally follow these steps (on Python 3.9)
 
-1.  Create virtual environment and source
+1.  Create and source your virtual environment. Install the required packages
 
 ```bash
 python3 -m venv ~/.flask-ml-aws
 source ~/.flask-ml-aws/bin/activate
+pip install -r requirements.txt
 ```
 
-2.  Run `make install`
-
-3.  Run `python application.py`
+2.  Run application: `python application.py`
    
 
 ## To run it in [AWS](http://mlops-flask-ml-aws-env.eba-7dfmqgrz.eu-north-1.elasticbeanstalk.com/) 
@@ -31,4 +30,9 @@ Create an application and an environment (Refer to [AWS Official Documentation](
 
 Create a AWS Pipeline sourcing from Github and deploying to the Elastic Beanstalk environment.
 
->>>>>>> 8b46964 (base project)
+
+<!-- 
+Tutoriels:
+https://www.youtube.com/watch?v=m1mWjC1VFY4&ab_channel=AWSUserGroupIndia
+https://www.red-gate.com/simple-talk/blogs/deploying-a-nodejs-application-from-github-to-aws-elastic-beanstalk-and-creating-a-ci-cd-aws-codepipeline/
+-->
