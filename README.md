@@ -32,7 +32,7 @@ Create a AWS Pipeline sourcing from Github and deploying to the Elastic Beanstal
 
 
 <!-- 
-Tutoriels:
+Ressources:
 https://www.youtube.com/watch?v=m1mWjC1VFY4&ab_channel=AWSUserGroupIndia
 https://www.red-gate.com/simple-talk/blogs/deploying-a-nodejs-application-from-github-to-aws-elastic-beanstalk-and-creating-a-ci-cd-aws-codepipeline/
 -->
